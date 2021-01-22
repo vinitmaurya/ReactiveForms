@@ -1,0 +1,11 @@
+<form class="container-sm ">
+  <div class="form-group mb-5">
+    <label for="firstName" class="form-label">First Name</label>
+    <input ngModel name="firstName" (click)="onClick()" #firstName='ngModel'  id="firstName" type="text" class="form-control "/>
+  </div>
+  <div class="form-group mb-3 ">
+    <label for="comment" class="form-label">Comment</label>
+    <textarea id="comment" cols="30" rows="10" class="comment  form-control" ></textarea>
+  </div>
+  <button class="btn btn-primary">Submit</button>
+</form>
